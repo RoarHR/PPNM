@@ -1,0 +1,8 @@
+
+Extremum of Rosenbrock's function: [1.00000191408522, 1.00000379484309]
+Using quadratic interpolation line-search: [1.00001336678177, 1.00001023755927]
+
+Extremum of Himmelblau's function: [1.12406644257089, 1.17383609608709]
+Using quadratic interpolation line-search: [1.12406644257089, 1.17383609608709]
+
+Energy level for Hydrogen atom: -0.499968198560878

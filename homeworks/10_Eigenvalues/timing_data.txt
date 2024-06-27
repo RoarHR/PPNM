@@ -1,0 +1,9 @@
+Running in parallel:
+real	0m13.176s
+user	0m17.891s
+sys	0m0.839s
+
+Running make without parallization:
+real	0m17.140s
+user	0m16.573s
+sys	0m0.564s

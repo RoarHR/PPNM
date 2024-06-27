@@ -1,0 +1,5 @@
+R is upper triangular -> Passed
+Q^TQ = I -> Passed
+QR = A -> Passed
+Ax = b -> Passed
+AA⁻¹ = I -> Passed

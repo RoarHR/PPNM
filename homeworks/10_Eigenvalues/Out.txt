@@ -1,0 +1,4 @@
+V^T * A * V == D -> Passed
+V * D * V^T == A -> Passed
+V^T * V == I -> Passed
+V * V^T == I -> Passed

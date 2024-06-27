@@ -1,0 +1,14 @@
+User time [s] Real time[s]
+Using Parallel.For
+
+arg -> -nterms:3e8
+Main: nterms=300000000Total Harmonic Sum: 13.7989466710026
+ 3.04 33.04
+
+
+Using ThreadLocal
+Main: nterms=300000000
+
+Total Harmonic Sum: 20.0965086991842
+
+ 0.57 6.02

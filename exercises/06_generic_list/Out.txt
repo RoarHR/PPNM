@@ -1,0 +1,12 @@
+Here is a number: 1.2924e+002
+Here is a number: 2.4800e+001
+Here is a number: 4.8470e+000
+Here is a number: 8.8600e+001
+Here is a number: 3.3745e+001
+Here is a number: 7.7800e+000
+Here is a number: 3.0390e+001
+Here is a number: 9.9811e+001
+Here is a number: 6.7230e+000
+Here is a number: -1.3300e+000
+Here is a number: 9.6300e+001
+Here is a number: 2.2300e+000

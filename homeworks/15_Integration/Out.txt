@@ -1,0 +1,15 @@
+∫_0^1 dx √(x) = 0.666651128056607, Expected: 2/3, Error: 0.00159351952821571
+∫_0^1 dx 4√(1-x²) = 3.1415763864835, Expected: π, Error: 0.00342212475666148
+∫_0^1 dx 1/√(x) = 2
+∫_0^1 dx 1/√(x) Regular result: 1.99996150007805, calls: 8572, Error: 0.0013057261303539
+∫_0^1 dx 1/√(x) Clenshaw–Curtis result: 1.99999201046432, calls: 16, Error: 0.00215182056720623
+∫_0^1 dx ln(x)/√(x) = -4
+∫_0^1 dx ln(x)/√(x) Regular result: -3.99991705899915, calls: 8604, Error: 0.00365625914761678
+∫_0^1 dx ln(x)/√(x) Clenshaw–Curtis result: -3.99987385646141, calls: 96, Error: 0.00373605882543345
+∫_1^∞ dx 1/x² = 1
+∫_1^∞ dx 1/x² Result: 1, calls: 4, Error: 1.11022302462516E-16
+Python/numpy tests:
+∫_0^1 dx 1/√(x) result: 1.9999999999999984, calls: 231
+∫_0^1 dx ln(x)/√(x) result: -4.000000000000085, calls: 315
+∫_1^∞ dx 1/x² = 1
+∫_1^∞ dx 1/x² Numpy result: 1.0, calls: 15, Error: 1.1102230246251565e-14

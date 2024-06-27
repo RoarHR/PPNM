@@ -1,0 +1,12 @@
+
+Linear interpolation
+Integral of cos(x) from 0 to pi/2 (should be 1):
+0.922744119781943
+Integral of cos(x) from 0 to pi (should be 0):
+-0.00764479844542229
+
+Quadratic spline
+Integral of sin(x) from 0 to pi (should be 2):
+2.03075787959317
+Integral of sin(x) from 0 to 2*pi (should be 0):
+0.00607291565751844

@@ -1,0 +1,48 @@
+arg -> -nthreads:1
+arg -> -nterms:3e8
+Main: nterms=300000000 nthreads=1
+Main: Starting threads...
+Total Harmonic Sum: 20.0965086991896
+
+arg -> -nthreads:2
+arg -> -nterms:3e8
+Main: nterms=300000000 nthreads=2
+Main: Starting threads...
+Total Harmonic Sum: 20.096508705856
+
+arg -> -nthreads:3
+arg -> -nterms:3e8
+Main: nterms=300000000 nthreads=3
+Main: Starting threads...
+Total Harmonic Sum: 20.0965087141873
+
+arg -> -nthreads:4
+arg -> -nterms:3e8
+Main: nterms=300000000 nthreads=4
+Main: Starting threads...
+Total Harmonic Sum: 20.0965087236319
+
+arg -> -nthreads:5
+arg -> -nterms:3e8
+Main: nterms=300000000 nthreads=5
+Main: Starting threads...
+Total Harmonic Sum: 20.0965087339092
+
+arg -> -nthreads:6
+arg -> -nterms:3e8
+Main: nterms=300000000 nthreads=6
+Main: Starting threads...
+Total Harmonic Sum: 20.0965087448545
+
+arg -> -nthreads:7
+arg -> -nterms:3e8
+Main: nterms=300000000 nthreads=7
+Main: Starting threads...
+Total Harmonic Sum: 20.0965087563553
+
+arg -> -nthreads:8
+arg -> -nterms:3e8
+Main: nterms=300000000 nthreads=8
+Main: Starting threads...
+Total Harmonic Sum: 20.0965087683293
+
