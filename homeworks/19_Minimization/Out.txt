@@ -1,0 +1,21 @@
+Testing the forward and central difference methods (FD; CD) at (x, y) = (1.50, 1.50) for Rosenbrock's valley function.
+Forward Difference Method:
+Gradient (FD):
+  451.0000  -150.0000 
+Hessian (FD):
+ 2102.3232  -600.0017 
+ -600.0382   199.9999 
+Central Difference Method:
+Gradient (CD):
+  451.0000  -150.0000 
+Hessian (CD):
+ 2069.3333  -597.3333 
+ -597.3333   199.1111 
+Rosenbrock's function minimum (FD):	[1.00002977672529, 1.00005911042738]	Steps:	10
+Rosenbrock's function minimum (CD):	[1.000099745653, 1.00019857565097]	Steps:	16
+Himmelblau's function minimum (FD):	[2.99999726922648, 2.00001154197995]	Steps:	4
+Himmelblau's function minimum (CD):	[3.00000070568963, 2.00000439191198]	Steps:	4
+Fitted the Breit-Wigner function in 27 steps
+m = 125.972173246648 GeV/c²
+Γ = 2.08728423850536
+A = 9.88101121557624

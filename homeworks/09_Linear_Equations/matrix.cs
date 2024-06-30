@@ -1,5 +1,6 @@
 using System;
 using System.Globalization;
+using System.IO;
 using System.Collections.Generic;
 
 /// <summary>
@@ -240,6 +241,9 @@ public class Matrix {
 
 		string line;
 		while ((line = Console.ReadLine()) != null) {
+			if (line.TrimStart().StartsWith("#")) {
+				continue;
+			}
 			// Handle different delimiters
 			char[] delimiters = { ' ', ',', '\t' };
 			string[] parts = line.Split(delimiters, StringSplitOptions.RemoveEmptyEntries);
@@ -265,6 +269,43 @@ public class Matrix {
 		}
 
 		return matrix;
+	}
+	
+	public static Matrix Loadtxt(string filename) {
+		List<double> values = new List<double>();
+		int cols = 0, rows = 0;
+
+		using (StreamReader sr = new StreamReader(filename)) {
+			string line;
+			while ((line = sr.ReadLine()) != null) {
+				if (line.TrimStart().StartsWith("#")) {
+					continue;
+				}
+				// Handle different delimiters
+				char[] delimiters = { ' ', ',', '\t' };
+				string[] parts = line.Split(delimiters, StringSplitOptions.RemoveEmptyEntries);
+
+				if (cols == 0) {
+					cols = parts.Length;
+				} else if (parts.Length != cols) {
+					throw new InvalidOperationException("Inconsistent number of columns in input file.");
+				}
+
+				foreach (var part in parts) {
+					values.Add(double.Parse(part, CultureInfo.InvariantCulture));
+				}
+
+				rows++;
+			}
+		}
+
+		Matrix result = new Matrix(rows, cols);
+		for (int i = 0; i < rows; i++) {
+			for (int j = 0; j < cols; j++) {
+				result[i, j] = values[i * cols + j];
+			}
+		}
+		return result;
 	}
 
 	/// <summary>

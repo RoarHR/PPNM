@@ -59,6 +59,12 @@ public class QRGS {
 		}
 		return B;
 	} // Inverse
+		
+	public static Matrix Inverse(Matrix A) {
+		(Matrix Q, Matrix R) = Decomp(A);
+		Matrix B = Inverse(Q, R);
+		return B;
+	}
 	
 	public static int Main(string[] args) {
 		bool timingMode = false;

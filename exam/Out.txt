@@ -1,0 +1,28 @@
+
+Rosenbrock's valley function test
+Starting point: [-0.5, 2]
+True solution: [1, 1]
+Solution: [0.999999999999192, 0.99999999999838]
+Iterations: 6
+
+Himmelblau's function test
+Starting point: [1, 5]
+True (nearest) solution: [3, 2]
+Solution: [3.00000000012439, 1.99999999997544]
+Iterations: 5
+
+Fitting observation of the star LAWD 37 (white dwarf) to 2D Gaussian function
+Fitting section is 41 by 46 = 1886 pixels
+Initial guess for parameters: [10000, 20.5, 23, 10.25, 11.5]
+Fitted star in 31 steps
+Amplitude: 7488.0 +/- 15.9
+Centroid x: 18.9999 +/- 0.0043
+Centroid y: 20.4255 +/- 0.0049
+Spread in x: 3.0676 +/- 0.0033
+Spread in y: 3.5040 +/- 0.0038
+
+Fitting f(x) = c[0] * Sin(c[1] * x + c[3]) * Cos(c[2] * x + c[3]) to 100 points in the range [-3, 3] with standard deviation 0.2
+Original parameters:
+c[0] = 1, c[1] = 0.8, c[2] = 2, c[3] = 0.5
+Fitted parameters:
+c[0] = 0.929779004808832, c[1] = 0.814676651615692, c[2] = 2.01422491974966, c[3] = 0.568581998213207
